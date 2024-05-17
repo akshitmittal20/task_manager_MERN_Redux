@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Signin from './components/registration/Signin';
 import Signup from './components/registration/Signup';
+import ImageUpload from './components/registration/UploadFile';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './styles/main.scss';
@@ -26,6 +27,10 @@ function App() {
 					<Route
 						path='/signup'
 						element={!auth.currentUser ? <Signup /> : <Dashboard />}
+					/>
+					<Route
+						path='/upload'
+						element={!auth.currentUser ? <ImageUpload /> : <Dashboard />}
 					/>
 					<Route
 						path='/taskmanager'
