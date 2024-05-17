@@ -1,4 +1,4 @@
-## Task Manager Application - 
+## Task Manager Application 
 
 # Full Stack Web app - Frontend and Backend
 
