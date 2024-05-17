@@ -7,6 +7,7 @@
 USER:
 - Can Create an account
 - Can sign in and sign out successfully
+- Can set the Profile picture
 
 - Can create a Task 
 - Can modify status of their tasks 
